@@ -1,0 +1,41 @@
+.navbar{
+    padding-right: 2%;
+    background-color: white;
+}
+
+#img_dev{
+    width: 180px;
+    height: 180px;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+}
+
+.separator::before {
+    content: "";
+    display: inline-block;
+    width: 2px; /* Thickness of the line */
+    height: 180px; /* Height of the line */
+    background-color: #F8F8F8; /* Color of the line */
+    margin: 0 10px; /* Space around the line */
+}
+
+.text_abu {
+    color: #949494;
+}
+
+li {
+    display: inline-block;
+}
+
+li a:hover {
+    background-color: blue;
+    /* height: 20px; */
+    /* block-size: 10px; */
+}
+
+.optionx{
+    color: #ffea00;
+}
